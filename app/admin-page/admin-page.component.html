@@ -1,0 +1,23 @@
+<mat-card>
+  <h2>Manage Portfolio Content</h2>
+  
+  <form [formGroup]="adminForm" (ngSubmit)="saveContent()">
+    <mat-form-field>
+      <mat-label>About Section</mat-label>
+      <input matInput formControlName="about">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Contact Email</mat-label>
+      <input matInput formControlName="email">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Contact Phone</mat-label>
+      <input matInput formControlName="phone">
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Save</button>
+
+  </form>
+</mat-card>

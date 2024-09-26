@@ -1,0 +1,63 @@
+{
+  "profile": {
+    "name": "Shibla",
+    "title": "MEAN Stack Developer",
+    "bio": "MCA graduate with MEAN Stack internship experience. Passionate writer. Combines technical skills with creative writing.",
+    "profileImage": "./assets/profilepic.jpg"
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "Easy Connect with Lawyers",
+      "description": "A platform to schedule appointments with lawyers",
+      "link": "https://github.com/Shibla-shi/Miniproject",
+      "projectImage": "./assets/laws.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Smart News Hub",
+      "description": "An advanced news hub with AI-driven features.",
+      "link": "https://github.com/Shibla-shi/Main-Project",
+      "projectImage": "./assets/smartnews.jpg"
+    },
+    {
+      "id": "3",
+      "title": "ToDo App",
+      "description": "A user-friendly ToDo app for managing tasks.",
+      "link": "http://example.com/todo-app",
+      "projectImage": "./assets/todo.jpg"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "degree": "MCA",
+      "institution": "APJ Abdul Kalam Technical University",
+      "year": "2024"
+    },
+    {
+      "id": "2",
+      "degree": "BSc Computer Science",
+      "institution": "University of Calicut",
+      "year": "2021"
+    }
+  ],
+  "contacts": {
+    "email": "shiblaj32000@gmail.com",
+    "phone": "123-456-7890",
+    "address": "Palakkad, India"
+  },
+  "admin": {
+    "username": "admin",
+    "password": "admin123"
+  },
+  "content": {
+    "about": {
+      "description": "Updated About us"
+    },
+    "contact": {
+      "email": "mailto:shiblaj32000@gmail.com",
+      "phone": "9714595342"
+    }
+  }
+}

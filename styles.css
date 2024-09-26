@@ -1,0 +1,101 @@
+/* src/styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section {
+    padding: 60px 20px;
+    min-height: 100vh;
+  }
+  
+  .about {
+    background-color: #f9f9f9;
+  }
+  
+  .projects {
+    background-color: #f1f1f1;
+  }
+  
+  .education {
+    background-color: #e9e9e9;
+  }
+  
+  .contact {
+    background-color: #e0e0e0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.tooltip {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  top: 100%;
+  left: 0;
+  white-space: nowrap;
+}
+
+.dynamic-class {
+  border: 2px solid blue;
+}
+
+
+.mat-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+mat-card {
+  width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3f51b5;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+button[color="primary"] {
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

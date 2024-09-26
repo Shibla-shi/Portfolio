@@ -1,0 +1,54 @@
+Style for the navbar
+.navbar {
+  background-color: #3f51b5; /* Primary color for the background */
+  padding: 10px 20px; /* Adds padding inside the navbar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Style for the unordered list in the navbar */
+.navbar ul {
+  list-style-type: none; /* Removes bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Aligns list items horizontally */
+  justify-content: center; /* Centers the menu items */
+}
+
+/* Style for each list item */
+.navbar ul li {
+  margin: 0 15px; /* Adds space between the menu items */
+}
+
+/* Style for the anchor links */
+.navbar ul li a {
+  color: #ffffff; /* White text for the links */
+  text-decoration: none; /* Removes underline from links */
+  font-size: 16px; /* Sets the font size */
+  font-weight: bold; /* Makes the text bold */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+  padding: 8px 16px; /* Adds padding inside the links */
+  border-radius: 5px; /* Rounds the corners */
+}
+
+/* Hover effect for links */
+.navbar ul li a:hover {
+  background-color: #303f9f; /* Changes background on hover */
+  color: #e0e0e0; /* Slightly lighter text on hover */
+}
+
+/* Active link styling */
+.navbar ul li a.active {
+  background-color: #1e88e5; /* Changes background for the active link */
+  color: #ffffff; /* White text for active link */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column; /* Stacks the menu items vertically */
+  }
+
+  .navbar ul li {
+    margin: 10px 0; /* Adds space between vertically stacked items */
+  }
+}
